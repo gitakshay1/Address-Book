@@ -7,6 +7,7 @@ namespace Address_Book
         {
             Addresbook book= new Addresbook();
             book.CreateContact();
+            
             while (true)
             {
                 Console.WriteLine("1.Create Contact\n2.DisplayContact\n3.EditContact");
